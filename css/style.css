@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+    background-color: #bbd4ac;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  /*border: 1px solid red;*/
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  letter-spacing: 10px;
+  text-align: center;
+  font-size: 50px;
+  margin: 30px auto;
+}
+
+#taskInput {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgb(227, 235, 196);
+  text-align: center;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 35px;
+  position: relative;
+}
+
+#addTaskButton {
+  height: 40px;
+  width: 200px;
+  background-color: #0c7bbf;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  font-size: 25px;
+  margin: 20px auto;
+  cursor: pointer;
+  display: block;
+
+}
+
+
+p {
+  font-size: 30px;
+  color: red;
+  display: inline-block;
+}
+
+span {
+  margin-left: 5px;
+  font-size: 30px;
+  color: red;
+}
+
+li {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  list-style: none;
+  border-radius: 12px;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  background-color: #e3ebc4;
+  font-size: 30px;
+  padding: 3px;
+  position: relative;
+
+}
+
+li h1 {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+ul button {
+  height: 30px;
+  width: 60px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: green;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  position: absolute;
+  right: 0;
+  bottom: -55px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+ul button:last-child{
+    right: 70px;
+}
+
+h1+button {
+  background-color: red;
+}
+
+.done {
+  color: green;
+}
+
+#removeFinishedTasksButton {
+  height: 40px;
+  width: 200px;
+  background-color: #a16150;
+  border-radius: 15px;
+  font-size: 25px;
+  border: none;
+  outline: none;
+  margin: 20px auto;
+  cursor: pointer;
+  display: block;
+}
+
+button:hover{
+  filter: brightness(75%);
+  transition: 0.5s;
+}
+
+<!--by Valerii Halatenko-->
